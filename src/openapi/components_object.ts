@@ -7,7 +7,7 @@ import type { ParameterObject } from './parameter_object.ts'
 import type { ReferenceObject } from './reference_object.ts'
 import type { RequestBodyObject } from './request_body_object.ts'
 import type { ResponseObject } from './response_object.ts'
-import type { SecuritySchemeObject } from './security_schemes_object.ts'
+import type { SecuritySchemeObject } from './security_scheme_object.ts'
 
 export type ComponentsObject = {
   schemas?: { [key: string]: JSONSchema | ReferenceObject }
