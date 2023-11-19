@@ -1,4 +1,5 @@
 import { JSONLD } from './json-ld/index.ts'
+import type { ResponseInit } from './types.ts'
 
 export class JSONLDResponse extends Response {
   constructor(

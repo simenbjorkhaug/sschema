@@ -1,4 +1,5 @@
 import { HATEOASResource } from './hateoas/index.ts'
+import type { ResponseInit } from './types.ts'
 
 export class HATEOASResponse<T = unknown> extends Response {
   constructor(

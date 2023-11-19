@@ -8,8 +8,9 @@ await build({
   shims: {
     // see JS docs for overview and more options
     deno: true,
+    undici: 'dev',
   },
-  test: true,
+  test: false,
   typeCheck: false,
   package: {
     // package.json properties
